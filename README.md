@@ -8,10 +8,14 @@ you: want to make koji, or keep a miso or a lactic fermentation in a precise env
 
 This is a 30-minute project to make a quick-n-dirty, plug-n-play incubator.
 
+![](/photos/IMG_0766.jpg)
+
 Senses: Temperature, humidity
 Actuates: Heating, humidification
 
 *The housing:* an 18" x 26" x 12" lexan container (made by cambro) with lid. Found in restaurant walk-ins the world over. Food-grade, rugged, easy to clean.
+
+![](/photos/IMG_0761.jpg)
 
 *The controller:* the most expensive component. Not truly a PID box (this is a thermostat, it works on a different algorithm; in truth, the algorithm is turn the actuator on when the setpoint is too low and turn it off when the setpoint is reached.) PID controllers are great! I highly recommend them. But since they involve wiring a temperature sensor and heating actuator, they are beyond the scope of this design. 
 
@@ -21,9 +25,14 @@ Actuates: Heating, humidification
 
 *The insulation:* don't use a styrofoam cooler, they are hard to clean and they tend to off-gas when heated. They can melt in contact with a heating element. Instead, use Reflectix, a nifty, thin, flexible insulation to make a jacket for your lexan housing.
 
+![](/photos/IMG_0448.jpg)
+
 **Directions:**
 
-make a jacket for the lexan (#1 on BOM) out of reflectix (#8 on BOM) and reflective insulation tape (#9 on BOM). Fit at least the sides, or sides and bottom, if you want to be more precise. I usually trim the reflectix to the height of the food storage container, and cut this to a little sider than each side, then overlap the ends and tape to fit the sloping sides of the container. Cut another piece that fits the lid. Don't tape the reflectix directly to the plastic housing, so that you can remove the jacket as necessary.
+make a jacket for the lexan (#1 on BOM) out of reflectix (#8 on BOM) and reflective insulation tape (#9 on BOM). Fit at least the sides, or sides and bottom, if you want to be more precise. I usually trim the reflectix to the height of the food storage container, and cut this to a little wider than each side, then overlap the ends and tape to fit the sloping sides of the container. Cut another piece that fits the lid. Don't tape the reflectix directly to the plastic housing, so that you can remove the jacket as necessary.
+
+![](/photos/IMG_0492.jpg)
+![](/photos/IMG_0493.jpg)
 
 unroll the heating mat (#5 on the bill of materials (BOM)) and put it in the bottom of the lexan container (#1, cambro polycarbonate food storage box, on BOM). Put the drain trays (#3 on BOM) on top of the heating mat. Put the humidifier (#6 on BOM) inside the box as well. Fill it with water, insert a wick into the cap, and cap it, first.
 
