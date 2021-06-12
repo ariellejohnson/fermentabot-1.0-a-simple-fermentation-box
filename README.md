@@ -2,7 +2,7 @@
 ## the $165 plug-n-play fermentation incubator
 a super simple, no wiring required, controlled environment in which to incubate fermentations
 
-**NOTE: For the most up-to-date version of this project please visit [the fermentabot](https://github.com/OpenAgInitiative/fermentabot)**
+A more technical, but by no means finished or necessarily stable, version can be found in [the fermentabot](https://github.com/OpenAgInitiative/fermentabot)**
 
 you: want to make koji, or keep a miso or a lactic fermentation in a precise environment for better stability and reproducibility; but you don't want to spend a lot of money and don't have time to teach yourself how to wire a PID box right now. 
 
