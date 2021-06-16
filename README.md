@@ -1,4 +1,4 @@
-# simple-fermentation-box:
+# even-simpler-fermentation-box:
 ## the $130 plug-n-play fermentation incubator
 a super simple, no wiring required, controlled environment which I use to incubate fermentations. Update: Heating-only version without active humidity control; the humidifiers tend to fail too often to be really useful.
 
