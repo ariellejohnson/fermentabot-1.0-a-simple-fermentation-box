@@ -1,6 +1,6 @@
 # simple-fermentation-box:
-## the $165 plug-n-play fermentation incubator
-a super simple, no wiring required, controlled environment which I use to incubate fermentations.
+## the $130 plug-n-play fermentation incubator
+a super simple, no wiring required, controlled environment which I use to incubate fermentations. Update: Heating-only version without active humidity control; the humidifiers tend to fail too often to be really useful.
 
 This design became the basis for [the fermentabot](https://github.com/OpenAgInitiative/fermentabot)**, a more complex, not necessarily finished or stable, fermentation device.
 
@@ -10,8 +10,8 @@ This project took me about 30 minutes to make a quick-n-dirty, plug-n-play incub
 
 ![](/photos/IMG_0766.jpg)
 
-Senses: Temperature, humidity
-Actuates: Heating, humidification
+Senses: Temperature
+Actuates: Heating
 
 *The housing:* I use an 18" x 26" x 12" lexan container (made by cambro) with lid. Found in restaurant walk-ins the world over. Food-grade, rugged, easy to clean.
 
@@ -20,8 +20,6 @@ Actuates: Heating, humidification
 *The controller:* the most expensive component. Not truly a PID box (this is a thermostat, it works on a different algorithm; in truth, the algorithm is turn the actuator on when the setpoint is too low and turn it off when the setpoint is reached.) PID controllers are great! I highly recommend them. But since they involve wiring a temperature sensor and heating actuator, they are beyond the scope of this design. 
 
 *The heater:* waterproof, even heating. Not as nice as circulating heated air, but it works.
-
-*The humidifier:* a cheap and cheerful humidifier, designed for running in your car or at your desk. Works nicely in a small space.
 
 *The insulation:* I don't use a styrofoam cooler, they are hard to clean and they tend to off-gas when heated. They can melt in contact with a heating element. Instead, this uses Reflectix, a nifty, thin, flexible insulation to make a jacket for your lexan housing.
 
@@ -36,11 +34,11 @@ make a jacket for the lexan (#1 on BOM) out of reflectix (#8 on BOM) and reflect
 
 unroll the heating mat (#5 on the bill of materials (BOM)) and put it in the bottom of the lexan container (#1, cambro polycarbonate food storage box, on BOM). Put the drain trays (#3 on BOM) on top of the heating mat. Put the humidifier (#6 on BOM) inside the box as well. Fill it with water, insert a wick into the cap, and cap it, first.
 
-Plug in the humidity and temperature controller (#4 on BOM) and plug in the heating mat and humidifier (using the USB cable and USB to AC adapter). Set the temperature and humidity to your desired range.
+Plug in the  temperature controller (#4 on BOM) and plug in the heating mat. Set the temperature.
 
 I have used 32C and 85% humidity to produce koji, in the past.
 
-I usually place a temperature/huidity probe on the surface of whatever's fermenting. This size box can hold 2-3 half size perforated hotel pans for incubating koji. I put the probe nestled into the inoculated koji of the lowest tray. This one gets the most heat, so I rotate the position of trays in the stack every 4 hours (taking a break overnight). 
+I usually place a temperature probe on the surface of whatever's fermenting. This size box can hold 2-3 half size perforated hotel pans for incubating koji. I put the probe nestled into the inoculated koji of the lowest tray. This one gets the most heat, so I rotate the position of trays in the stack every 4 hours (taking a break overnight). 
 
 
 Liability
