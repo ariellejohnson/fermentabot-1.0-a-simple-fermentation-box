@@ -1,19 +1,19 @@
 # simple-fermentation-box:
 ## the $165 plug-n-play fermentation incubator
-a super simple, no wiring required, controlled environment in which to incubate fermentations
+a super simple, no wiring required, controlled environment which I use to incubate fermentations.
 
-A more technical, but by no means finished or necessarily stable, version can be found in [the fermentabot](https://github.com/OpenAgInitiative/fermentabot)**
+This design became the basis for [the fermentabot](https://github.com/OpenAgInitiative/fermentabot)**, a more complex, not necessarily finished or stable, fermentation device.
 
-you: want to make koji, or keep a miso or a lactic fermentation in a precise environment for better stability and reproducibility; but you don't want to spend a lot of money and don't have time to teach yourself how to wire a PID box right now. 
+this is a box I developed for making koji and other temperature-sensitive fermentations. The main goals were relatively stable temperature control, inexpensive and cleanable materials, and simple construction, avoiding wiring a PID box. 
 
-This is a 30-minute project to make a quick-n-dirty, plug-n-play incubator.
+This project took me about 30 minutes to make a quick-n-dirty, plug-n-play incubator.
 
 ![](/photos/IMG_0766.jpg)
 
 Senses: Temperature, humidity
 Actuates: Heating, humidification
 
-*The housing:* an 18" x 26" x 12" lexan container (made by cambro) with lid. Found in restaurant walk-ins the world over. Food-grade, rugged, easy to clean.
+*The housing:* I use an 18" x 26" x 12" lexan container (made by cambro) with lid. Found in restaurant walk-ins the world over. Food-grade, rugged, easy to clean.
 
 ![](/photos/IMG_0761.jpg)
 
@@ -23,7 +23,7 @@ Actuates: Heating, humidification
 
 *The humidifier:* a cheap and cheerful humidifier, designed for running in your car or at your desk. Works nicely in a small space.
 
-*The insulation:* don't use a styrofoam cooler, they are hard to clean and they tend to off-gas when heated. They can melt in contact with a heating element. Instead, use Reflectix, a nifty, thin, flexible insulation to make a jacket for your lexan housing.
+*The insulation:* I don't use a styrofoam cooler, they are hard to clean and they tend to off-gas when heated. They can melt in contact with a heating element. Instead, this uses Reflectix, a nifty, thin, flexible insulation to make a jacket for your lexan housing.
 
 ![](/photos/IMG_0448.jpg)
 
@@ -38,8 +38,16 @@ unroll the heating mat (#5 on the bill of materials (BOM)) and put it in the bot
 
 Plug in the humidity and temperature controller (#4 on BOM) and plug in the heating mat and humidifier (using the USB cable and USB to AC adapter). Set the temperature and humidity to your desired range.
 
-For koji, try 32C and 85% humidity.
+I have used 32C and 85% humidity to produce koji, in the past.
 
-put the temperature and humidity probe on the surface of the substrate you're going to ferment. This size box can hold 2-3 half size perforated hotel pans for incubating koji. Put the probe inside the inoculated koji of the lowest tray. This one will get the most heat, so rotate the position of trays in the stack every 4 hours (you can take a break when you're sleeping). 
+I usually place a temperature/huidity probe on the surface of whatever's fermenting. This size box can hold 2-3 half size perforated hotel pans for incubating koji. I put the probe nestled into the inoculated koji of the lowest tray. This one gets the most heat, so I rotate the position of trays in the stack every 4 hours (taking a break overnight). 
 
 
+Liability
+
+In plain language: don't be stupid, be realistic about the limits of your knowledge, educate yourself about what you're doing, familiarize yourself with food safety guidelines, take a risk- and harm-reduction attitude towards experimentation, and fucking make sure whatever you've made is safe before feeding it to anyone or selling it. These are your responsibilities in using this or any other equipment to make fermented foods.
+
+Any type of fermentation involves some level of risk. By using this design, you assume all responsibility for educating yourself on the food safety guidelines for fermentation, familiarizing yourself with potential hazards, for any negative or unsafe results, for disposing of any potentially hazardous products produced with the design, and for ensuring d=safety and quality before you consume any products or serve them to others. I am not a food safety expert or microbiologist, and I can't give you professional, medical, regulatory, or legal advice on food safety. 
+
+This temperature controlling unit must be used according to the manufacturer's instructions and only for the specific purpose for
+which it was designed. Arielle Johnson shall not and is not responsible or liable for any consequential damages, injuries, paralysis, or death arising from the use or misuse of the products based on this design. By using this design, you(the user) and your heirs assume all responsibility of ownership, risks of use, and agree to hold harmless, Arielle Johnson and heirs for any damage, incident, or action, involving the design, included but not limited to illness resulting from fermented products made with the design. 
