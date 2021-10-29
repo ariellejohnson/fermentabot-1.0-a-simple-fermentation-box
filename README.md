@@ -2,7 +2,7 @@
 ## the $165 plug-n-play fermentation incubator
 This is a super simple, no wiring required, controlled environment box I developed for incubating koji and other temperature-sensitive fermentations. The main goals were relatively stable temperature control, inexpensive and cleanable materials, and simple construction, avoiding wiring a PID box. 
 
-This was the first iteration I designed of [the fermentabot](https://github.com/OpenAgInitiative/fermentabot)**, later versions becoming more complex, not necessarily finished or stable, fermentation devices.
+This was the first iteration I designed of [the fermentabot](https://github.com/OpenAgInitiative/fermentabot)**, fermentation devices; some later versions are more complex, though not necessarily finished or stable.
 
 
 
